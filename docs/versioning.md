@@ -6,4 +6,5 @@ Github and Gitlab are two popular choices when it comes to version control syste
    > git --version
    
    >You should see the version printed on the Command Prompt as shown below.
-   > ![Response](../images/verify-git.png)
+   > ![image](images/verifygit.png)
+   
