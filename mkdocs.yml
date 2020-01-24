@@ -1,0 +1,53 @@
+site_name: 'RubikX'
+site_description: 'Software training material & documentation'
+site_author: 'RubikX'
+copyright: 'Copyright &copy; 2019 RubikX'
+#site_url: http://www.rubikx.io/docs
+site_url: http://www.rubikx.io/docs
+# Location where the output HTML and other files are created,
+# the path is local in the Docker container but redirected to the 'site' directory.
+site_dir: '/site'
+
+nav:
+  - Home: index.md
+
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'images/[your logo]'
+  feature:
+    tabs: false
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font: false
+
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+#extra:
+#  manifest: 'manifest.webmanifest'
+#  social:
+#    - type: 'github'
+#      link: 'https://github.com/[your GitHub account]'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/[your Twitter handle]'
+#    - type: 'linkedin'
+#      link: 'https://www.linkedin.com/in/[your LinkedIn shortname]/'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - nl2br
+  - sane_lists
+  - footnotes
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.escapeall
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
