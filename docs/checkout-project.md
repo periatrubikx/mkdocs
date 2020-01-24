@@ -9,7 +9,7 @@ Before you try this step, ensure you have Git installed on your local system. If
    
    > ![image](images/clone_project.png)
    
-   > You may be prompted to enter your Github credentials if you aren't already logged into Github as shown below.
+   > You may be prompted to enter your Github credentials if you aren't already logged into Github as shown below. If you don't have a Github account, you can create one by visiting the [Github](http://www.github.com)
    
    > ![image](images/github_login_prompt.png)
    
