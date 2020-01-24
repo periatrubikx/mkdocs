@@ -11,6 +11,7 @@ site_dir: '/site'
 nav:
   - Home: index.md
   - Version Control: versioning.md
+  - Checkout Project: checkout-project.md
 
 
 theme:
@@ -53,3 +54,4 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.tasklist
   - pymdownx.tilde
+  - attr_list
